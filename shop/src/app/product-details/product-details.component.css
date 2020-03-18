@@ -1,0 +1,30 @@
+button{
+
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 3px;
+  justify-content: center;
+}
+.all{
+  padding: 10px 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.description{
+  color: yellow;
+  opacity: 0.7;
+  font-size: 19px;
+
+}
+.price{
+  font-size: 30px;
+  text-decoration: underline;
+  color:purple;
+}
+.rating{
+  font-size: 30px;
+  text-decoration: underline;
+  color:green;
+}

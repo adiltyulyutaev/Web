@@ -1,0 +1,10 @@
+<h3>
+  <a [title]="product.name + ' details'" href="{{product.link}}" target="_blank">
+    {{ product.name }}
+  </a>
+
+</h3>
+
+<img src="{{product.img_link}}"  alt="" >
+<p>Price is <span class="price">{{product.price}}</span> $</p>
+<a routerLink="/products/{{product.id}}"> <button class = "button">More Info</button></a>

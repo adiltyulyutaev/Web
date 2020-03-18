@@ -1,0 +1,16 @@
+.button{
+
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 3px;
+  justify-content: center;
+}
+img{
+  border: 1px solid red;
+  border-radius: 30px;
+}
+.price{
+  font-size: 30px;
+  text-decoration: underline;
+  color:purple;
+}

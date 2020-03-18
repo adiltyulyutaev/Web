@@ -1,0 +1,21 @@
+<h2 style="text-align:center;">Products</h2>
+<div class="products">
+  <div class="product-item" *ngFor="let product of products">
+
+      <h3>
+        <a routerLink="/product-id/{{product.id}}" [title]="product.name + ' details'" >
+          {{ product.name }}
+        </a>
+      </h3>
+      <img src={{product.img_link}}  href= {{ products.link }}>
+      <br>
+      <h4> {{ product.price }} $ <span > rating: {{ product.rating }} </span></h4>
+  </div>
+</div>
+
+
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

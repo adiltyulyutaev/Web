@@ -1,0 +1,15 @@
+.category{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.all{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+
+}
+a{
+  margin: 0px 10px
+}

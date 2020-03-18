@@ -1,0 +1,21 @@
+<div class="all">
+  <button (click)="goBack()">Back</button>
+
+  <h3>
+    <a [title]="product.name + ' details'" href="{{product.link}}" target="_blank">
+      {{ product.name }}
+    </a>
+  </h3>
+
+  <img src="{{product.img_link}}"   alt="" >
+  <br>
+  <span>Rating is <span class = "rating">{{product.rating}}</span></span>
+  <p *ngIf="product.description">
+    Description: <span  class= "description">{{ product.description }}</span>
+  </p>
+
+  <p >
+    Price:<span class = "price"> {{ product.price }}</span> $
+  </p>
+
+</div>

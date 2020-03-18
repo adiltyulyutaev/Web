@@ -1,0 +1,21 @@
+.all{
+  padding: 0px 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+h2{
+  text-align: center;
+}
+button{
+
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 3px;
+  justify-content: center;
+
+}
+.back{
+
+}

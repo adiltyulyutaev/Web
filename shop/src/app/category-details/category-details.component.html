@@ -1,0 +1,9 @@
+<div class="all">
+  <h2>{{category.name}}</h2>
+  <button (click)="goBack()"><i class="back"></i>Back</button>
+  <div *ngFor="let product of products" class="products">
+
+    <app-product-item [product]="product" ></app-product-item>
+  </div>
+
+</div>

@@ -1,0 +1,134 @@
+header{
+  /* position: relative; */
+  padding: 10px 230px;
+  /* width: 100%; */
+  height: 65px;
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 35px;
+}
+h2{
+  font-weight: normal;
+}
+
+.genders{
+  display: flex;
+}
+
+.right img{
+  width: 90%;
+}
+.left{
+  width:45%;
+
+}
+.right p{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.right{
+  width:55%;
+  margin-left: 15px;
+}
+body{
+  background-color: #ebedf0;
+  padding: 0;
+  margin:0;
+}
+.all{
+  margin: 10px 269px;
+  display: flex;
+  justify-content: space-between;
+}
+.main input{
+  border: 1px solid #ccd0d5;
+  margin-right: 4px ;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px 10px;
+
+
+}
+#name, #surname{
+  width: 40%;
+}
+
+#password , #phone{
+  width: 87%;
+}
+#but1{
+
+    display: flex;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: white;
+    background-color: #3b5998;
+}
+select{
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.but2{
+  margin: 10px 0px;
+  /* height: 35px; */
+  /* width : 45%; */
+  font: 20px Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #69a74e;
+  border: none;
+  border: 1px solid green;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#blabla{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#gender{
+  color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+label{
+    color: #90949C;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 10px 0px 5px;
+    width:100%;
+}
+
+
+header img{
+  width: 200px;
+  margin-left: 15px;
+  /* position: absolute; */
+  /* float: left; */
+  /* margin-left: 100px; */
+}
